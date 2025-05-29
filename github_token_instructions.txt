@@ -1,0 +1,16 @@
+GitHubのPersonal Access Tokenが必要です。以下の手順で取得してください：
+
+1. GitHubにログイン
+2. 右上のプロフィールアイコン → Settings
+3. 左側のサイドバーから「Developer settings」
+4. 「Personal access tokens」→「Tokens (classic)」
+5. 「Generate new token」→「Generate new token (classic)」
+6. トークンに名前をつけ、repo権限にチェック
+7. 「Generate token」をクリック
+8. 表示されたトークンをコピー（一度しか表示されません）
+
+トークンを取得したら、以下のコマンドでプッシュできます：
+
+git push https://USERNAME:TOKEN@github.com/koichi1115/rhyme_game.git master
+
+※USERNAMEとTOKENを実際の値に置き換えてください
